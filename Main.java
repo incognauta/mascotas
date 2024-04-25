@@ -15,41 +15,31 @@ public class Main {
         imprimirnombre();
     }
 
-    static void imprimirnombre(){
+    static void imprimirnombre() {
         System.out.println("Juan Miguel Ramirez");
     }
 
+    imprimirMiNombre();
 
-        imprimirMiNombre();
+    printName();
 
+    nombre();
 
-        printName();
+    Imprimir_Nicolas_Ospina();
 
-        nombre();
+    imprimirNombreC();
 
-        Imprimir_Nicolas_Ospina();
+    nuevoNombre();
 
-
-        imprimirNombreC();
-
-        nuevoNombre();
-
-        thomasBuitrago();
-
-
-
-
+    thomasBuitrago();
 
     }
 
-
-
-
     static void crearMascota() {
         Mascota m1 = new Mascota("Tobias", "Snouzer", "Canino", 5);
-        mascotas.add(m1);//agregamos la mascota a las lista de mascotas
+        mascotas.add(m1);// agregamos la mascota a las lista de mascotas
         Mascota m2 = new Mascota("Lilu", "Pequinez", "Canino", 15);
-        mascotas.add(m2);//agregamos la mascota a las lista de mascotas
+        mascotas.add(m2);// agregamos la mascota a las lista de mascotas
     }
 
     static void consultarMascotas() {
@@ -58,28 +48,22 @@ public class Main {
             System.out.println(m.getNombre());
         }
     }
+
     // Llama al método imprimirNombre
     static void imprimirMiNombre() {
         System.out.println("Mi nombre es: Luis Castrillon ");
     }
 
-
-    static void nombre(){
+    static void nombre() {
         System.out.println("Estudiante:");
         System.out.println("Mayerly Alejandra Suarez Sepulveda\n");
     }
 
-
-    static void printName(){
+    static void printName() {
         System.out.println("Modificado por: Paula");
     }
 
-
-
-
- 
-
-    //Metodo para imprimir mi nombre
+    // Metodo para imprimir mi nombre
     static void nombre(){
 
         System.out.println("Nombre: Juan Esteban Zuluaga Quintero ");
@@ -101,6 +85,7 @@ public class Main {
         System.out.println("Número de documento: 1036928998");
         System.out.println("Grupo: Jueves 9-12am");
     }
+
     static void simonMartinez() {
         System.out.println("Nombre: Simon Martinez");
         System.out.println("Número de documento: 1001367561");
@@ -108,18 +93,17 @@ public class Main {
 
     }
 
-    static void IsaIda(){
-    System.out.println("Nombre: Isabella Idarraga Botero");
-    System.out.println("Numero de identificación: 1011511471");
-    System.out.println("Grupo: 9am-12pm");
+    static void IsaIda() {
+        System.out.println("Nombre: Isabella Idarraga Botero");
+        System.out.println("Numero de identificación: 1011511471");
+        System.out.println("Grupo: 9am-12pm");
     }
-
-
 
     static void thomasBuitrago() {
         System.out.println("Nombre: Thomas Buitrago Uribe");
         System.out.println("Número de documento: 1000409680");
         System.out.println("Grupo: viernes 9-12 am");
+    }
 
     static void juanSebastianRave() {
         System.out.println("Nombre: Juan Sebastián Rave Martínez");
@@ -128,16 +112,17 @@ public class Main {
 
     }
 
-    static void Imprimir_Nicolas_Ospina(){
+    static void Imprimir_Nicolas_Ospina() {
         System.out.println("Estudiante: Nicolás Ospina Torres");
         System.out.println("Grupo: Lenguajes de Programación 3324");
     }
+
     static void eliminarMascotas() {
     }
 
-    static void imprimirNombreC(){
+    static void imprimirNombreC() {
         System.out.println("Cesar Montoya");
-        //El pull request fue pedido por Cesar Montoya del grupo 3324
+        // El pull request fue pedido por Cesar Montoya del grupo 3324
 
     }
 
@@ -151,12 +136,18 @@ public class Main {
 
     static void nombreSaDG() {
         System.out.println("Nombre: Samuel Deossa Gomez");
-        System.out.println("Número de documento: 1023593101);
+        System.out.println("Número de documento: 1023593101");
         System.out.println("Grupo: Jueves 9-12am");
-        }
-    
+    }
+
     static void ImprimirNombreMateo(){
         System.out.println("Nombre: Mateo Andres Pineda Beltran")
+    }
+
+    static void PsYo() {
+        System.out.println("Nombre: Juan Manuel Escobar Mejia");
+        System.out.println("Número de documento: 1025882573");
+        System.out.println("Grupo: Jueves 9-12am");
     }
 
 }
