@@ -150,4 +150,10 @@ public class Main {
         System.out.println("Grupo: Jueves 9-12am");
     }
 
+    static void PuesYO() {
+        System.out.println("Nombre: Juan Manuel Escobar Mejia");
+        System.out.println("Número de documento: 1025882573");
+        System.out.println("Grupo: Jueves 9-12am");
+    }
+
 }
